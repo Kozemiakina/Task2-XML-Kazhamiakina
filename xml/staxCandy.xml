@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<candys>
+<candy id="0">
+	<name>Аэрофлотские</name>
+		<caloric>543</caloric>
+		<candyType>Вафельная</candyType>
+		<ingredients>
+			<ingredient type="water">
+				<value>300</value>
+				</ingredient>
+			<ingredient type="sugar">
+				<value>50</value>
+				</ingredient>
+			<ingredient type="fructose">
+				<value>50</value>
+				</ingredient>
+			<ingredient type="typeChocolate">
+				<value>Молочный</value>
+				</ingredient>
+			<ingredient type="vanillin">
+				<value>30</value>
+				</ingredient>
+			</ingredients>
+		<nutritional>
+		<proteins>3.9</proteins>
+			<fats>33.7</fats>
+			<carbohydrates>58.0</carbohydrates>
+			</nutritional>
+		<manufacturer>Спартак</manufacturer>
+		</candy>
+	<candy id="1">
+	<name>Аэрофлотские</name>
+		<caloric>543</caloric>
+		<candyType>Вафельная</candyType>
+		<ingredients>
+			<ingredient type="water">
+				<value>300</value>
+				</ingredient>
+			<ingredient type="sugar">
+				<value>50</value>
+				</ingredient>
+			<ingredient type="fructose">
+				<value>50</value>
+				</ingredient>
+			<ingredient type="typeChocolate">
+				<value>Молочный</value>
+				</ingredient>
+			<ingredient type="vanillin">
+				<value>30</value>
+				</ingredient>
+			</ingredients>
+		<nutritional>
+		<proteins>3.9</proteins>
+			<fats>33.7</fats>
+			<carbohydrates>58.0</carbohydrates>
+			</nutritional>
+		<manufacturer>Спартак</manufacturer>
+		</candy>
+	<candy id="2">
+	<name>Аэрофлотские</name>
+		<caloric>543</caloric>
+		<candyType>Вафельная</candyType>
+		<ingredients>
+			<ingredient type="water">
+				<value>300</value>
+				</ingredient>
+			<ingredient type="sugar">
+				<value>50</value>
+				</ingredient>
+			<ingredient type="fructose">
+				<value>50</value>
+				</ingredient>
+			<ingredient type="typeChocolate">
+				<value>Молочный</value>
+				</ingredient>
+			<ingredient type="vanillin">
+				<value>30</value>
+				</ingredient>
+			</ingredients>
+		<nutritional>
+		<proteins>3.9</proteins>
+			<fats>33.7</fats>
+			<carbohydrates>58.0</carbohydrates>
+			</nutritional>
+		<manufacturer>Спартак</manufacturer>
+		</candy>
+	<candy id="3">
+	<name>Аэрофлотские</name>
+		<caloric>543</caloric>
+		<candyType>Вафельная</candyType>
+		<ingredients>
+			<ingredient type="water">
+				<value>300</value>
+				</ingredient>
+			<ingredient type="sugar">
+				<value>50</value>
+				</ingredient>
+			<ingredient type="fructose">
+				<value>50</value>
+				</ingredient>
+			<ingredient type="typeChocolate">
+				<value>Молочный</value>
+				</ingredient>
+			<ingredient type="vanillin">
+				<value>30</value>
+				</ingredient>
+			</ingredients>
+		<nutritional>
+		<proteins>3.9</proteins>
+			<fats>33.7</fats>
+			<carbohydrates>58.0</carbohydrates>
+			</nutritional>
+		<manufacturer>Спартак</manufacturer>
+		</candy>
+	<candy id="4">
+	<name>Аэрофлотские</name>
+		<caloric>543</caloric>
+		<candyType>Вафельная</candyType>
+		<ingredients>
+			<ingredient type="water">
+				<value>300</value>
+				</ingredient>
+			<ingredient type="sugar">
+				<value>50</value>
+				</ingredient>
+			<ingredient type="fructose">
+				<value>50</value>
+				</ingredient>
+			<ingredient type="typeChocolate">
+				<value>Молочный</value>
+				</ingredient>
+			<ingredient type="vanillin">
+				<value>30</value>
+				</ingredient>
+			</ingredients>
+		<nutritional>
+		<proteins>3.9</proteins>
+			<fats>33.7</fats>
+			<carbohydrates>58.0</carbohydrates>
+			</nutritional>
+		<manufacturer>Спартак</manufacturer>
+		</candy>
+	</candys>

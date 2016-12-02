@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<candys xmlns="http://www.example.com/candys" xmlns:ns2="http://www.example.com/ingredients">
+    <candy id="1">
+        <name>Золотая лилия</name>
+        <caloric>580.0</caloric>
+        <candyType>Шоколадная</candyType><ingredients><ns2:ingredient type="vanillin"><ns2:value>50</ns2:value></ns2:ingredient><ns2:ingredient type="vanillin"><ns2:value>50</ns2:value></ns2:ingredient><ns2:ingredient type="vanillin"><ns2:value>50</ns2:value></ns2:ingredient><ns2:ingredient type="vanillin"><ns2:value>50</ns2:value></ns2:ingredient><ns2:ingredient type="vanillin"><ns2:value>50</ns2:value></ns2:ingredient></ingredients><nutritional><proteins>4.2</proteins><fats>44.5</fats><carbohydrates>23.1</carbohydrates></nutritional><manufacturer>Roshen</manufacturer></candy></candys>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+            targetNamespace="http://www.example.com/candys"
+            xmlns:tns="http://www.example.com/candys"
+            xmlns:ingr="http://www.example.com/ingredients">
+  <xsd:import namespace="http://www.example.com/ingredients" schemaLocation="Ingredient.xsd"/>
+  <xsd:element name="candys">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="candy"      type="tns:candyType"     minOccurs="1"      maxOccurs="unbounded" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:complexType name="candyType">
+    <xsd:sequence>
+      <xsd:element name="name" type="xsd:string"/>
+      <xsd:element name="caloric" type="xsd:double"/>
+      <xsd:element name="candyType" type="xsd:string"/>
+      <xsd:element name="ingredients" type="ingr:ingredients"/>
+      <xsd:element name="nutritional" type="tns:nutritional"/>
+      <xsd:element name="manufacturer" type="xsd:string"/>
+    </xsd:sequence>
+    <xsd:attribute name="id" type="tns:idCandy" use="required"/>
+  </xsd:complexType>
+  <xsd:simpleType name="idCandy">
+    <xsd:restriction base="xsd:integer">
+      <xsd:pattern value="[0-9]+"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:complexType name="nutritional">
+    <xsd:sequence>
+      <xsd:element name="proteins" type="xsd:double"/>
+      <xsd:element name="fats" type="xsd:double"/>
+      <xsd:element name="carbohydrates" type="xsd:double"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

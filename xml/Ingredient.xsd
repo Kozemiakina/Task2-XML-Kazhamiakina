@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+            targetNamespace="http://www.example.com/ingredients"
+            xmlns:tns="http://www.example.com/ingredients">
+    <xsd:complexType name="ingredients">
+        <xsd:sequence>
+            <xsd:element name="ingredient" type="tns:ingredientType" minOccurs="4" maxOccurs="5"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="ingredientType">
+        <xsd:sequence>
+            <xsd:element name="value" type="xsd:string"/>
+        </xsd:sequence>
+        <xsd:attribute name="type" type="tns:candyIngredients" use="required"/>
+    </xsd:complexType>
+    <xsd:simpleType name="candyIngredients">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="water"></xsd:enumeration>
+            <xsd:enumeration value="sugar"></xsd:enumeration>
+            <xsd:enumeration value="fructose"></xsd:enumeration>
+            <xsd:enumeration value="typeChocolate"></xsd:enumeration>
+            <xsd:enumeration value="vanillin"></xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+</xsd:schema>

@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="org.jvnet.jaxb2_commons:jaxb-xjc:2.1.6" type="repository">
+    <properties maven-id="org.jvnet.jaxb2_commons:jaxb-xjc:2.1.6" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jvnet/jaxb2_commons/jaxb-xjc/2.1.6/jaxb-xjc-2.1.6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/codemodel/codemodel/2.1/codemodel-2.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/junit/junit/3.8/junit-3.8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/xml/dtd-parser/dtd-parser/1.0/dtd-parser-1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/istack/istack-commons-tools/1.1/istack-commons-tools-1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/relaxngDatatype/relaxngDatatype/20020414/relaxngDatatype-20020414.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/org/apache/xml/internal/resolver/20050927/resolver-20050927.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/kohsuke/rngom/rngom/20061207/rngom-20061207.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/xsom/xsom/20070407/xsom-20070407.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

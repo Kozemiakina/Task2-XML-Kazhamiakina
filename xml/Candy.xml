@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<candys xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.example.com/candys"
+        xmlns:ingr="http://www.example.com/ingredients"
+        xsd:schemaLocation="http://www.example.com/candys Candy.xsd">
+    <candy id="0">
+        <name>Аэрофлотские</name>
+        <caloric>543</caloric>
+        <candyType>Вафельная</candyType>
+        <ingredients>
+            <ingr:ingredient type="water">
+                <ingr:value>300</ingr:value>
+            </ingr:ingredient>
+            <ingr:ingredient type="sugar">
+                <ingr:value>50</ingr:value>
+            </ingr:ingredient>
+            <ingr:ingredient type="fructose">
+                <ingr:value>50</ingr:value>
+            </ingr:ingredient>
+            <ingr:ingredient type="typeChocolate">
+                <ingr:value>Молочный</ingr:value>
+            </ingr:ingredient>
+            <ingr:ingredient type="vanillin">
+                <ingr:value>30</ingr:value>
+            </ingr:ingredient>
+        </ingredients>
+        <nutritional>
+            <proteins>3.9</proteins>
+            <fats>33.7</fats>
+            <carbohydrates>58.0</carbohydrates>
+        </nutritional>
+        <manufacturer>Спартак</manufacturer>
+    </candy>
+    <candy id="1">
+        <name>Аленка</name>
+        <caloric>558</caloric>
+        <candyType>Шоколадная</candyType>
+        <ingredients>
+            <ingr:ingredient type="water">
+                <ingr:value>250</ingr:value>
+            </ingr:ingredient>
+            <ingr:ingredient type="sugar">
+                <ingr:value>40</ingr:value>
+            </ingr:ingredient>
+            <ingr:ingredient type="fructose">
+                <ingr:value>60</ingr:value>
+            </ingr:ingredient>
+            <ingr:ingredient type="typeChocolate">
+                <ingr:value>Классический</ingr:value>
+            </ingr:ingredient>
+            <ingr:ingredient type="vanillin">
+                <ingr:value>40</ingr:value>
+            </ingr:ingredient>
+        </ingredients>
+        <nutritional>
+            <proteins>6.4</proteins>
+            <fats>35.6</fats>
+            <carbohydrates>52.8</carbohydrates>
+        </nutritional>
+        <manufacturer>Коммунарка</manufacturer>
+    </candy>
+    <candy id="2">
+        <name>Бешеная пчелка</name>
+        <caloric>322</caloric>
+        <candyType>Мармеладная</candyType>
+        <ingredients>
+            <ingr:ingredient type="water">
+                <ingr:value>400</ingr:value>
+            </ingr:ingredient>
+            <ingr:ingredient type="sugar">
+                <ingr:value>50</ingr:value>
+            </ingr:ingredient>
+            <ingr:ingredient type="fructose">
+                <ingr:value>30</ingr:value>
+            </ingr:ingredient>
+            <ingr:ingredient type="vanillin">
+                <ingr:value>30</ingr:value>
+            </ingr:ingredient>
+        </ingredients>
+        <nutritional>
+            <proteins>0.3</proteins>
+            <fats>0.6</fats>
+            <carbohydrates>79.6</carbohydrates>
+        </nutritional>
+        <manufacturer>Коммунарка</manufacturer>
+    </candy>
+</candys>
